@@ -20,7 +20,7 @@
 
   ### Usage & getting Started
   ---
-  [Click here to see the app live](https://github.com/jdalefoskey)
+  [Click here to see the app live](https://burgerrrrrrrrllll.herokuapp.com/)
   
   To use locally, first the user needs to take the files in the db folder to create a database in mysql.
  
