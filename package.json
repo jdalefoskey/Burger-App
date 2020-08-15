@@ -1,18 +1,26 @@
 {
-  "name": "node-http-server",
+  "name": "burger-app",
   "version": "1.0.0",
-  "description": "Node.js example server starter project",
-  "main": "src/index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdalefoskey/Burger-App"
+  },
+  "author": "Thad Cole",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdalefoskey/Burger-App/issues"
+  },
+  "homepage": "https://github.com/jdalefoskey/Burger-App#readme",
   "dependencies": {
+    "@types/jquery": "^3.5.1",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-handlebars": "^5.1.0",
     "mysql": "^2.18.1"
-  },
-  "devDependencies": {
-    "nodemon": "1.18.4"
-  },
-  "keywords": []
+  }
 }
