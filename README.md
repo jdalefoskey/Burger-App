@@ -1,9 +1,8 @@
 # Eat-Da-Burger!
 
-
 A burger app using node, mysql, express, handlebars
 
-![screenshot placeholder]()
+![screenshot placeholder](screenshot1.png)
 
 ## Table of Contents
 
@@ -24,7 +23,6 @@ from command line in project directory run node server.js
 ## Usage
 
 You can use this app at your leisure
-
 
 ## License
 
