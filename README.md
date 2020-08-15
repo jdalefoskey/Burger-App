@@ -1,33 +1,64 @@
-# Eat-Da-Burger!
 
+  
+  # Eat A Burger App
+  ---
 
-A burger app using node, mysql, express, handlebars
+  ## Description [![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/dwyl/goodparts "JavaScript The Good Parts")
+  ---
+  > This is a project created through node,express,handlebars, and mysql database, Demonstrates how to add and manipulate database information
+  ![image](screenshot1.png)
+  
+  
+  ### Table of Contents
+  ---
+  - [Usage](#Usage-&-getting-Started)
+  - [Installation](#Installation)
+  - [License](#License)
+  - [Contributing](#Contributing)
+  - [Testing](#Test)
+  - [Contact](#Questions)
 
-![screenshot placeholder](./screenshot1.png)
+  ### Usage & getting Started
+  ---
+  [Click here to see the app live](https://github.com/jdalefoskey)
+  
+  To use locally, first the user needs to take the files in the db folder to create a database in mysql.
+ 
+  
 
-## Table of Contents
+  ### Installation
+  ---
+  > To get started you need to install dependancies with the first command, then start the application with the second command. From root folder type the following in the terminal window
+  
+  ```
+        npm i
+  ```
+   
+  ```    
+       node server.js
+  ```
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
-- [Credits](#credits)
-- [License](#license)
+  ### License  [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
+  ---
+  > no license required
 
-## Installation
+  ### Contributing   [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/jdalefoskey)
+  ---
+  Any feedback is welcome and appreciated.
+  
 
-from command line in project directory run node server.js
+  ### Test
+  ---
+  feel free to test and develop as you wish.
 
-[back to Table of Contents](#table-of-contents)
+  ### Questions  
+  ---
+  Any questions about the project please feel free to reach out, I would love the opportunity to discuss it with you.
 
-## Usage
+  [Reach me through Github](https://github.com/jdalefoskey)
+   
+  [Reach me through Twitter](https://twitter.com/dale_foskey)
 
-You can use this app at your leisure
-
-
-## License
-
-no license required
-
-[back to Table of Contents](#table-of-contents)
+  [Reach me through email    dalefoskey@icloud.com](mailto:dalefoskey@icloud.com)
+  
+  
