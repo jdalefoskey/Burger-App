@@ -3,7 +3,7 @@
 
 A burger app using node, mysql, express, handlebars
 
-![screenshot placeholder]()
+![screenshot placeholder](./screenshot1.png)
 
 ## Table of Contents
 
