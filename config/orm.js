@@ -1,35 +1,31 @@
-// * required modules
-const connection = require("./connection");
+//required
+const connection = require('./connection')
 
-// * ORM object creation
+//  ORM
 const orm = {
-  selectAll(cb) {
-    // only 1 table exists to select from
-    const queryStr = "SELECT * FROM burgers";
+  selectAll (cb) {
+    const queryStr = 'SELECT * FROM burgers'
     connection.query(queryStr, (err, result) => {
-      if (err) throw err;
-      cb(result);
-    });
+      if (err) throw err
+      cb(result)
+    })
   },
-  insertOne(burgerIn, cb) {
-    // INSERT INTO burgers SET burger_name = "user entered burger"
-    const queryStr = "INSERT INTO burgers SET ?";
-    // burgerIn = { burger_name = "user entered burger" }
-    connection.query(queryStr, burgerIn, (err, result) => {
-      if (err) throw err;
-      cb(result);
-    });
-  },
-  updateOne(devourId, cb) {
-    // UPDATE burgers SET devoured = true WHERE id = INT(id of devoured burger)
-    const queryStr = "UPDATE burgers SET devoured = TRUE WHERE ?";
-    // devourId is the id number of the burger the user has decided to devour
-    connection.query(queryStr, devourId, (err, result) => {
-      if (err) throw err;
-      cb(result);
-    });
-  },
-};
+  insertOne (burgerIn, cb) {
+    const queryStr = 'INSERT INTO burgers SET ?'
 
-// * export this module
-module.exports = orm;
+    connection.query(queryStr, burgerIn, (err, result) => {
+      if (err) throw err
+      cb(result)
+    })
+  },
+  updateOne (devourId, cb) {
+    const queryStr = 'UPDATE burgers SET devoured = TRUE WHERE ?'
+
+    connection.query(queryStr, devourId, (err, result) => {
+      if (err) throw err
+      cb(result)
+    })
+  }
+}
+
+module.exports = orm

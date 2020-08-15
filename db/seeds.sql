@@ -1,7 +1,7 @@
--- Ensures data is added to the correct database
+
 USE burgers_db;
 
--- add data to database
+
 INSERT INTO
     `burgers` (
 burger_name)
@@ -10,7 +10,7 @@ VALUES
     ("double hamburger"),
     ("impossible hamburger");
 
--- see result
+
 SELECT
     *
 FROM

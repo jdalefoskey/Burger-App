@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-Any and all contributions are most welcome! To ensure the smoothest contribution experience possible, please refer to the following sections for the situation that best applies.
+Use it like you own it.
 
 - [Bug](#if-you-find-a-bug)
 - [New Feature](#if-you-want-a-new-feature)
