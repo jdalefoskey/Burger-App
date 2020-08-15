@@ -19,7 +19,7 @@ A burger app using node, mysql, express, handlebars
 
 from command line in project directory run node server.js
 
-[back to Table of Contents](#table-of-contents)
+
 
 ## Usage
 
@@ -30,5 +30,5 @@ You can use this app at your leisure
 
 no license required
 
-[back to Table of Contents](#table-of-contents)
+
 
